@@ -12,106 +12,147 @@
         body {
             font-family: 'Poppins', sans-serif;
             scroll-behavior: smooth;
+            background-color: #FFFFFF; /* Fundo geral: Branco */
+            color: #0f1d41; /* Cor padrão do texto: Azul escuro */
         }
-        /* Removido: .chart-container */
         .tab-active {
-            background-color: #0d9488; /* teal-600 */
-            color: #ffffff;
+            background-color: #7116aa; /* Lilás */
+            color: #FFFFFF;
             font-weight: 600;
         }
         .tab-inactive {
-            background-color: #f0fdfa; /* teal-50 */
-            color: #134e4a; /* teal-950 */
+            background-color: #FFFFFF; /* Branco */
+            color: #0f1d41; /* Azul escuro */
+            border: 1px solid #0f1d41; /* Borda para destaque */
         }
         .tab-inactive:hover {
-            background-color: #ccfbf1; /* teal-100 */
+            background-color: #f0ebf2; /* Levemente lilás ao hover */
+        }
+        /* Nova classe para os ícones no rodapé */
+        .footer-icon {
+            color: #FFFFFF; /* Branco para os ícones */
+            transition: color 0.3s ease;
+        }
+        .footer-icon:hover {
+            color: #7116aa; /* Lilás no hover */
+        }
+        /* Sombreamento para os cards */
+        .card-shadow {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); /* Sombra mais suave */
+        }
+        .card-shadow:hover {
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.12); /* Sombra um pouco mais forte no hover */
         }
     </style>
 </head>
-<body class="bg-stone-50 text-slate-800">
+<body class="bg-[#FFFFFF] text-[#0f1d41]">
 
-    <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
+    <header class="bg-[#FFFFFF]/90 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
         <nav class="container mx-auto px-4 py-3 flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold text-teal-800">Atthos Tech</a>
+            <a href="#" class="text-2xl font-bold text-[#0f1d41]">Atthos Tech</a>
             <div class="hidden md:flex space-x-6">
-                <a href="#problems" class="text-slate-600 hover:text-teal-600 transition-colors">O Problema</a>
-                <a href="#solution" class="text-slate-600 hover:text-teal-600 transition-colors">A Solução</a>
-                <a href="#cta" class="bg-teal-600 text-white py-2 px-4 rounded-lg hover:bg-teal-700 transition-colors">Fale Conosco</a>
+                <a href="#problems" class="text-[#0f1d41] hover:text-[#7116aa] transition-colors">O Problema</a>
+                <a href="#solution" class="text-[#0f1d41] hover:text-[#7116aa] transition-colors">A Solução</a>
+                <a href="#cta" class="bg-[#7116aa] text-white py-2 px-4 rounded-lg hover:bg-[#5b1288] transition-colors">Fale Conosco</a>
             </div>
         </nav>
     </header>
 
     <main>
-        <section id="hero" class="text-center py-16 sm:py-24 bg-teal-50/50">
+        <section id="hero" class="text-center py-16 sm:py-24 bg-[#FFFFFF]">
             <div class="container mx-auto px-4">
-                <h1 class="text-3xl md:text-5xl font-bold text-teal-900 mb-3">🚨 Seu Negócio está no Caos?</h1>
-                <p class="text-base md:text-lg text-slate-600 max-w-2xl mx-auto">Sabemos o quanto é desafiador manter tudo em ordem: documentos perdidos, tarefas bagunçadas e um digital que não gera resultados. Mas calma, estamos aqui para transformar essa realidade.</p>
+                <h1 class="text-3xl md:text-5xl font-bold text-[#0f1d41] mb-3">🚨 Seu Negócio está no Caos?</h1>
+                <p class="text-base md:text-lg text-[#0f1d41] max-w-2xl mx-auto leading-relaxed">Sabemos o quanto é desafiador manter tudo em ordem: documentos perdidos, tarefas bagunçadas e um digital que não gera resultados. Mas calma, estamos aqui para transformar essa realidade.</p>
             </div>
         </section>
 
         <section id="problems" class="py-12 sm:py-20">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-10">
-                    <h2 class="text-2xl sm:text-3xl font-bold mb-2">A rotina do empreendedor não precisa ser assim</h2>
-                    <p class="text-slate-600 max-w-xl mx-auto text-sm sm:text-base">Nesta seção, exploramos os desafios mais comuns que identificamos em nossos clientes antes da nossa parceria. Veja se você se identifica com algum deles.</p>
+                    <h2 class="text-2xl sm:text-3xl font-bold mb-2 text-[#0f1d41]">A rotina do empreendedor não precisa ser assim</h2>
+                    <p class="text-[#0f1d41] max-w-xl mx-auto text-sm sm:text-base">Nesta seção, exploramos os desafios mais comuns que identificamos em nossos clientes antes da nossa parceria. Veja se você se identifica com algum deles.</p>
                 </div>
                 <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 text-center">
-                    <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <div class="bg-white p-6 rounded-xl border border-[#0f1d41]/10 card-shadow hover:shadow-lg transition-shadow duration-300">
                         <span class="text-4xl sm:text-5xl mb-3 block">😵‍💫</span>
-                        <h3 class="text-lg sm:text-xl font-semibold mb-2">Processos Confusos</h3>
-                        <p class="text-slate-500 text-sm">Documentos perdidos e tarefas bagunçadas que consomem seu tempo e energia, tirando o foco do que realmente importa: crescer.</p>
+                        <h3 class="text-lg sm:text-xl font-semibold mb-2 text-[#0f1d41]">Processos Confusos</h3>
+                        <p class="text-[#0f1d41] text-sm leading-normal">Documentos perdidos e tarefas bagunçadas que consomem seu tempo e energia, tirando o foco do que realmente importa: crescer.</p>
                     </div>
-                    <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <div class="bg-white p-6 rounded-xl border border-[#0f1d41]/10 card-shadow hover:shadow-lg transition-shadow duration-300">
                         <span class="text-4xl sm:text-5xl mb-3 block">📉</span>
-                        <h3 class="text-lg sm:text-xl font-semibold mb-2">Redes Sociais sem Vendas</h3>
-                        <p class="text-slate-500 text-sm">Você posta, posta, e não vê o retorno esperado em clientes ou engajamento. Parece que está falando para ninguém.</p>
+                        <h3 class="text-lg sm:text-xl font-semibold mb-2 text-[#0f1d41]">Redes Sociais sem Vendas</h3>
+                        <p class="text-[#0f1d41] text-sm leading-normal">Você posta, posta, e não vê o retorno esperado em clientes ou engajamento. Parece que está falando para ninguém.</p>
                     </div>
-                    <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <div class="bg-white p-6 rounded-xl border border-[#0f1d41]/10 card-shadow hover:shadow-lg transition-shadow duration-300">
                         <span class="text-4xl sm:text-5xl mb-3 block">🤯</span>
-                        <h3 class="text-lg sm:text-xl font-semibold mb-2">Falta de Clareza Estratégica</h3>
-                        <p class="text-slate-500 text-sm">A ausência de um plano claro faz com que você se sinta perdido, tomando decisões baseadas em "achismos" e não em dados.</p>
+                        <h3 class="text-lg sm:text-xl font-semibold mb-2 text-[#0f1d41]">Falta de Clareza Estratégica</h3>
+                        <p class="text-[#0f1d41] text-sm leading-normal">A ausência de um plano claro faz com que você se sinta perdido, tomando decisões baseadas em "achismos" e não em dados.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="solution" class="py-12 sm:py-20 bg-teal-50/50">
+        <section id="solution" class="py-12 sm:py-20 bg-[#f8f8f8]">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-10">
-                    <h2 class="text-2xl sm:text-3xl font-bold text-teal-900 mb-2">A Consultoria Atthos Tech Resolve! ✅</h2>
-                    <p class="text-slate-600 max-w-xl mx-auto text-sm sm:text-base">Nossa abordagem é direta e focada em resultados. Desenvolvemos soluções integradas para organizar sua operação e impulsionar seu crescimento. Explore nossas frentes de atuação interagindo com as abas abaixo.</p>
+                    <h2 class="text-2xl sm:text-3xl font-bold text-[#0f1d41] mb-2">A Consultoria Atthos Tech Resolve! ✅</h2>
+                    <p class="text-[#0f1d41] max-w-xl mx-auto text-sm sm:text-base leading-normal">Nossa abordagem é direta e focada em resultados. Desenvolvemos soluções integradas para organizar sua operação e impulsionar seu crescimento. Explore nossas frentes de atuação interagindo com as abas abaixo.</p>
                 </div>
                 
                 <div id="tabs-container" class="max-w-3xl mx-auto">
                     <div class="flex flex-col sm:flex-row justify-center gap-2 mb-6">
-                        <button data-tab="strategy" class="tab-button py-2 px-4 rounded-lg text-sm sm:text-base transition-all duration-300 tab-active">✨ Estratégia Digital</button>
-                        <button data-tab="notion" class="tab-button py-2 px-4 rounded-lg text-sm sm:text-base transition-all duration-300 tab-inactive">📝 Gestão de Processos Internos</button>
-                        <button data-tab="social" class="tab-button py-2 px-4 rounded-lg text-sm sm:text-base transition-all duration-300 tab-inactive">📱 Gestão de Redes</button>
+                        <button data-tab="strategy" class="tab-button py-2 px-4 rounded-lg text-sm sm:text-base transition-all duration-300 tab-active font-semibold">✨ Estratégia Digital</button>
+                        <button data-tab="notion" class="tab-button py-2 px-4 rounded-lg text-sm sm:text-base transition-all duration-300 tab-inactive font-semibold">📝 Organização no Notion</button>
+                        <button data-tab="social" class="tab-button py-2 px-4 rounded-lg text-sm sm:text-base transition-all duration-300 tab-inactive font-semibold">📱 Gestão de Redes</button>
                     </div>
                     
-                    <div id="tabs-content" class="bg-white p-6 md:p-8 rounded-xl shadow-md min-h-[180px]">
+                    <div id="tabs-content" class="bg-[#FFFFFF] p-6 md:p-8 rounded-xl shadow-md min-h-[180px] card-shadow">
                         <div id="strategy-content" class="tab-content">
-                            <h3 class="text-xl sm:text-2xl font-bold text-teal-800 mb-3">Estratégia Digital Simples e Eficaz</h3>
-                            <p class="text-slate-600 text-sm sm:text-base">Tudo fica mais fácil com um plano. Desenvolvemos uma estratégia digital clara e objetiva, focada nos seus objetivos. Você saberá exatamente quais passos dar para que seu negócio cresça de forma sustentável no ambiente online.</p>
+                            <span class="text-4xl text-[#7116aa] float-right ml-4 mb-4">💡</span>
+                            <h3 class="text-xl sm:text-2xl font-bold text-[#0f1d41] mb-3">Estratégia Digital Simples e Eficaz</h3>
+                            <p class="text-[#0f1d41] text-sm sm:text-base leading-normal">Tudo fica mais fácil com um plano. Desenvolvemos uma estratégia digital clara e objetiva, focada nos seus objetivos. Você saberá exatamente quais passos dar para que seu negócio cresça de forma sustentável no ambiente online.</p>
                         </div>
                         <div id="notion-content" class="tab-content hidden">
-                            <h3 class="text-xl sm:text-2xl font-bold text-teal-800 mb-3">Organização de Processos com Notion</h3>
-                            <p class="text-slate-600 text-sm sm:text-base">Diga adeus à bagunça! Implementamos e personalizamos o Notion para centralizar suas tarefas, projetos e clientes. Transformamos seu caos em um sistema organizado e produtivo que economiza seu tempo.</p>
+                            <span class="text-4xl text-[#7116aa] float-right ml-4 mb-4">🚀</span>
+                            <h3 class="text-xl sm:text-2xl font-bold text-[#0f1d41] mb-3">Organização de Processos com Notion</h3>
+                            <p class="text-[#0f1d41] text-sm sm:text-base leading-normal">Diga adeus à bagunça! Implementamos e personalizamos o Notion para centralizar suas tarefas, projetos e clientes. Transformamos seu caos em um sistema organizado e produtivo que economiza seu tempo.</p>
                         </div>
                         <div id="social-content" class="tab-content hidden">
-                            <h3 class="text-xl sm:text-2xl font-bold text-teal-800 mb-3">Gestão de Redes Sociais que Engaja</h3>
-                            <p class="text-slate-600 text-sm sm:text-base">Suas redes sociais, agora sim, vão bombar! Criamos um plano de conteúdo e gestão que fala diretamente com seu público, gera engajamento real e, mais importante, transforma seguidores em clientes.</p>
+                            <span class="text-4xl text-[#7116aa] float-right ml-4 mb-4">📈</span>
+                            <h3 class="text-xl sm:text-2xl font-bold text-[#0f1d41] mb-3">Gestão de Redes Sociais que Engaja</h3>
+                            <p class="text-[#0f1d41] text-sm sm:text-base leading-normal">Suas redes sociais, agora sim, vão bombar! Criamos um plano de conteúdo e gestão que fala diretamente com seu público, gera engajamento real e, mais importante, transforma seguidores em clientes.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="cta" class="bg-teal-700 text-white">
+        <section id="transformation" class="py-12 sm:py-20 bg-[#FFFFFF]">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-10">
+                    <h2 class="text-2xl sm:text-3xl font-bold mb-2 text-[#0f1d41]">Sua Transformação Real Começa Aqui! ✨</h2>
+                    <p class="text-[#0f1d41] max-w-xl mx-auto text-sm sm:text-base leading-normal">Mais do que organizar, nós entregamos resultados. Veja como nossos clientes alcançam uma nova fase de sucesso com a Atthos Tech.</p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    <div class="bg-white p-6 rounded-xl text-center border border-[#0f1d41]/10 card-shadow hover:shadow-lg transition-shadow duration-300">
+                        <span class="text-5xl text-[#7116aa] mb-3 block">🌟</span>
+                        <h3 class="text-xl font-semibold mb-2 text-[#0f1d41]">Sucesso na Prática</h3>
+                        <p class="text-[#0f1d41] leading-normal">"Depois da consultoria, consegui organizar todas as minhas tarefas e minhas redes sociais finalmente geram vendas! É um alívio enorme!" - **Ana P., Loja Online**</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl text-center border border-[#0f1d41]/10 card-shadow hover:shadow-lg transition-shadow duration-300">
+                        <span class="text-5xl text-[#7116aa] mb-3 block">📊</span>
+                        <h3 class="text-xl font-semibold mb-2 text-[#0f1d41]">Crescimento Comprovado</h3>
+                        <p class="text-[#0f1d41] leading-normal">"Minha visibilidade online cresceu X% em 3 meses e o tempo gasto com processos burocráticos caiu pela metade." - **Carlos M., Profissional Liberal**</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" class="bg-[#0f1d41] text-white">
             <div class="container mx-auto px-4 py-12 text-center">
                 <h2 class="text-2xl sm:text-3xl font-bold mb-3">Pronto para transformar seu negócio?</h2>
-                <p class="text-teal-100 max-w-xl mx-auto mb-6 text-sm sm:text-base">Chega de perder tempo com processos confusos e um digital que não vende. Vamos juntos descomplicar sua operação e alcançar resultados de verdade.</p>
-                <a href="#" class="bg-white text-teal-700 font-bold py-3 px-8 rounded-lg text-base sm:text-lg hover:bg-teal-50 transition-colors duration-300 shadow-lg inline-block">
+                <p class="text-white max-w-xl mx-auto mb-6 text-sm sm:text-base leading-normal">Chega de perder tempo com processos confusos e um digital que não vende. Vamos juntos descomplicar sua operação e alcançar resultados de verdade.</p>
+                <a href="https://wa.me/5511965391331" target="_blank" class="bg-[#7116aa] text-white font-bold py-3 px-8 rounded-lg text-base sm:text-lg hover:bg-[#5b1288] transition-all duration-300 shadow-lg inline-block">
                     Quero Organizar Meu Negócio Agora!
                 </a>
             </div>
@@ -119,30 +160,59 @@
 
     </main>
 
-    <footer id="contato" class="bg-slate-800 text-slate-300">
+    <footer id="contato" class="bg-[#0f1d41] text-[#FFFFFF]">
         <div class="container mx-auto px-4 py-10">
-            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 text-center sm:text-left">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center sm:text-left">
                 <div>
                     <h3 class="text-xl font-bold text-white mb-2">Atthos Tech</h3>
-                    <p class="text-slate-400 text-sm">Sua ponte para o futuro digital.</p>
+                    <p class="text-[#FFFFFF] text-sm">Descomplicando o digital para o seu negócio crescer.</p>
                 </div>
-                 <div>
-                    <h3 class="text-lg font-bold text-white mb-2">Conecte-se com a gente</h3>
-                    <p class="mb-1 text-sm">📍 100% online e acessível</p>
-                    <a href="https://www.instagram.com/atthos_tech" target="_blank" class="text-violet-400 hover:text-violet-300 text-sm">Instagram</a>
-                    <span class="mx-2 text-sm">·</span>
-                    <a href="https://wa.me/11965391331" target="_blank" class="text-violet-400 hover:text-violet-300 text-sm">WhatsApp</a>
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-2">Fale Conosco</h3>
+                    <ul class="text-sm">
+                        <li class="mb-1">
+                            <a href="https://wa.me/5511965391331" target="_blank" class="text-[#FFFFFF] hover:text-[#7116aa] transition-colors flex items-center justify-center sm:justify-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M.057 21.365a1.868 1.868 0 0 0 1.579 1.157c1.378.092 1.868.046 3.633-.701l.03-.016c1.178-.456 1.94-.741 3.208-1.127l.024-.008c.55-.164 1.1-.328 1.65-.492a10.96 10.96 0 0 0 4.148-1.578c2.09-.94 3.73-2.58 4.67-4.67a10.96 10.96 0 0 0-1.579-4.148c-.94-2.09-2.58-3.73-4.67-4.67a10.96 10.96 0 0 0-4.148-1.579c-2.09-.94-3.73-2.58-4.67-4.67a1.868 1.868 0 0 0-1.579-1.157c-1.378-.092-1.868-.046-3.633.701l-.03.016c-1.178.456-1.94.741-3.208 1.127l-.024.008c-.55.164-1.1.328-1.65.492a10.96 10.96 0 0 0-4.148 1.578c-2.09.94-3.73 2.58-4.67 4.67a10.96 10.96 0 0 0 1.579 4.148z"/>
+                                    <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.718 13.25L14.54 13.07a.5.5 0 0 0-.4-.08c-.14.03-.28.05-.42.05-.14 0-.28-.02-.42-.05a.5.5 0 0 0-.4.08l-2.178 2.178c-.2.2-.5.2-.7 0l-2.178-2.178a.5.5 0 0 0-.4-.08c-.14.03-.28.05-.42.05-.14 0-.28-.02-.42-.05a.5.5 0 0 0-.4-.08L4.718 13.25C4.518 13.05 4.518 12.75 4.718 12.55L7.25 10.012c.2-.2.5-.2.7 0l2.178 2.178a.5.5 0 0 0 .4.08c.14-.03.28-.05.42-.05.14 0 .28.02.42.05a.5.5 0 0 0 .4.08l2.178-2.178c.2-.2.5-.2.7 0l2.532 2.538c.2.2.2.5 0 .7z"/>
+                                </svg>
+                                (11) 96539-1331
+                            </a>
+                        </li>
+                        <li>
+                            <p class="text-[#FFFFFF] text-sm flex items-center justify-center sm:justify-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
+                                Atendimento 100% online
+                            </p>
+                        </li>
+                    </ul>
                 </div>
                 <div>
                     <h3 class="text-lg font-bold text-white mb-2">Links Rápidos</h3>
-                    <ul>
-                        <li><a href="#solution" class="hover:text-white text-sm">Nossas Soluções</a></li>
-                        <li><a href="https://keepo.io/atthostech" target="_blank" class="hover:text-white text-sm">Quem Somos</a></li>
+                    <ul class="text-sm space-y-1">
+                        <li><a href="#problems" class="text-[#FFFFFF] hover:text-[#7116aa] transition-colors">O Problema</a></li>
+                        <li><a href="#solution" class="text-[#FFFFFF] hover:text-[#7116aa] transition-colors">Nossas Soluções</a></li>
+                        <li><a href="#cta" class="text-[#FFFFFF] hover:text-[#7116aa] transition-colors">Fale Conosco</a></li>
+                        <li><a href="https://keepo.io/atthostech" target="_blank" class="text-[#FFFFFF] hover:text-[#7116aa] transition-colors">Quem Somos</a></li>
                     </ul>
                 </div>
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-2">Siga a gente!</h3>
+                    <div class="flex justify-center sm:justify-start gap-4 mt-2">
+                        <a href="https://www.instagram.com/atthos_tech" target="_blank" class="footer-icon" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/atthos-tech/" target="_blank" class="footer-icon" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="mt-10 border-t border-slate-700 pt-6 text-center text-xs text-slate-500">
-                <p>&copy; 2024 Atthos Tech. Todos os direitos reservados.</p>
+            <div class="mt-10 border-t border-[#333333] pt-6 text-center text-xs text-[#FFFFFF]">
+                <p>&copy; <span id="current-year"></span> Atthos Tech. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>
@@ -167,27 +237,39 @@
             const tabButtons = document.querySelectorAll('.tab-button');
             const tabContents = document.querySelectorAll('.tab-content');
 
+            // Função para ativar uma aba específica
+            const activateTab = (tabId) => {
+                tabButtons.forEach(btn => {
+                    btn.classList.remove('tab-active');
+                    btn.classList.add('tab-inactive');
+                });
+                tabContents.forEach(content => {
+                    content.classList.add('hidden');
+                });
+
+                const activeBtn = document.querySelector(`[data-tab="${tabId}"]`);
+                if (activeBtn) {
+                    activeBtn.classList.add('tab-active');
+                    activeBtn.classList.remove('tab-inactive');
+                }
+                const targetContent = document.getElementById(tabId + '-content');
+                if (targetContent) {
+                    targetContent.classList.remove('hidden');
+                }
+            };
+
+            // Ativar a primeira aba por padrão ao carregar a página
+            activateTab('strategy');
+
             tabButtons.forEach(button => {
                 button.addEventListener('click', () => {
-                    // Remove a classe 'tab-active' de todos e adiciona 'tab-inactive'
-                    tabButtons.forEach(btn => {
-                        btn.classList.remove('tab-active');
-                        btn.classList.add('tab-inactive');
-                    });
-                    // Adiciona 'tab-active' ao botão clicado e remove 'tab-inactive'
-                    button.classList.add('tab-active');
-                    button.classList.remove('tab-inactive');
-
-                    // Esconde todos os conteúdos
-                    tabContents.forEach(content => {
-                        content.classList.add('hidden');
-                    });
-
-                    // Mostra o conteúdo da aba clicada
-                    const targetTabId = button.getAttribute('data-tab') + '-content';
-                    document.getElementById(targetTabId).classList.remove('hidden');
+                    const tabId = button.getAttribute('data-tab');
+                    activateTab(tabId);
                 });
             });
+
+            // Atualiza o ano no rodapé automaticamente
+            document.getElementById('current-year').textContent = new Date().getFullYear();
         });
     </script>
 
