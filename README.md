@@ -1,6 +1,6 @@
 # 🌐 Atthos Tech
 
-Este repositório contém o código-fonte da **landing page institucional da Atthos Tech**, uma agência digital voltada para a organização e aceleração de pequenos e medios negócios, autônomos no ambiente interno e digital.
+Este repositório contém o código-fonte da **landing page institucional da Agência Atthos **, uma agência digital voltada para a organização e aceleração de pequenos e medios negócios, autônomos no ambiente interno e digital.
 
 
 ## 🔎 Sobre o Projeto
@@ -47,9 +47,9 @@ Essa página é só o começo. O plano é evoluir pra um hub completo com:
 
 ## 🔗 Links Importantes
 
-- 🌐 Saiba mais: [https://keepo.io/atthostech](https://keepo.io/atthostech)  
+- 🌐 Saiba mais: [https://keepo.io/Agencia_atthos](https://keepo.io/Agencia_atthos)  
 - 📲 Nosso contato via WhatsApp: [https://api.whatsapp.com/send?phone=5511965391331](https://api.whatsapp.com/send?phone=5511965391331)  
-- 📸 Instagram oficial: [https://instagram.com/atthos_tech](https://instagram.com/atthos_tech)
+- 📸 Instagram oficial: [https://instagram.com/agencia_atthos/](https://instagram.com/agencia_atthos/)
 
 🙌 Contribuição
 
@@ -58,7 +58,7 @@ Sugestões de melhorias ou colaborações são super bem-vindas. Pode chamar dir
 
 © Direitos
 
-© 2024 Atthos Tech. Todos os direitos reservados. Feito com visão e propósito.
+© 2024 Agência Atthos. Todos os direitos reservados. Feito com visão e propósito.
 
 
 
