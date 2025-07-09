@@ -47,9 +47,9 @@ Essa página é só o começo. O plano é evoluir pra um hub completo com:
 
 ## 🔗 Links Importantes
 
-- 🌐 Saiba mais: [https://keepo.io/atthostech](https://keepo.io/atthostech)  
+- 🌐 Saiba mais: [https://keepo.io/Agencia_atthos](https://keepo.io/Agencia_atthos)  
 - 📲 Nosso contato via WhatsApp: [https://api.whatsapp.com/send?phone=5511965391331](https://api.whatsapp.com/send?phone=5511965391331)  
-- 📸 Instagram oficial: [https://instagram.com/atthos_tech](https://instagram.com/atthos_tech)
+- 📸 Instagram oficial: [https://instagram.com/agencia_atthos/](https://instagram.com/agencia_atthos/)
 
 🙌 Contribuição
 
