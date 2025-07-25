@@ -8,43 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            scroll-behavior: smooth;
-            background-color: #FFFFFF; /* Fundo geral: Branco */
-            color: #0f1d41; /* Cor padrão do texto: Azul escuro */
-        }
-        .tab-active {
-            background-color: #7116aa; /* Lilás */
-            color: #FFFFFF;
-            font-weight: 600;
-        }
-        .tab-inactive {
-            background-color: #FFFFFF; /* Branco */
-            color: #0f1d41; /* Azul escuro */
-            border: 1px solid #0f1d41; /* Borda para destaque */
-        }
-        .tab-inactive:hover {
-            background-color: #f0ebf2; /* Levemente lilás ao hover */
-        }
-        /* Nova classe para os ícones no rodapé */
-        .footer-icon {
-            color: #FFFFFF; /* Branco para os ícones */
-            transition: color 0.3s ease;
-        }
-        .footer-icon:hover {
-            color: #7116aa; /* Lilás no hover */
-        }
-        /* Sombreamento para os cards */
-        .card-shadow {
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); /* Sombra mais suave */
-        }
-        .card-shadow:hover {
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.12); /* Sombra um pouco mais forte no hover */
-        }
-    </style>
-</head>
+    <link rel="stylesheet" href="style.css"> </head>
 <body class="bg-[#FFFFFF] text-[#0f1d41]">
 
     <header class="bg-[#FFFFFF]/90 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
@@ -95,7 +59,7 @@
         <section id="solution" class="py-12 sm:py-20 bg-[#f8f8f8]">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-10">
-                    <h2 class="text-2xl sm:text-3xl font-bold text-[#0f1d41] mb-2">A Consultoria Da Agência Atthos  Resolve! ✅</h2>
+                    <h2 class="text-2xl sm:text-3xl font-bold text-[#0f1d41] mb-2">A Consultoria Da Agência Atthos Resolve! ✅</h2>
                     <p class="text-[#0f1d41] max-w-xl mx-auto text-sm sm:text-base leading-normal">Nossa abordagem é direta e focada em resultados. Desenvolvemos soluções integradas para organizar sua operação e impulsionar seu crescimento. Explore nossas frentes de atuação interagindo com as abas abaixo.</p>
                 </div>
                 
@@ -143,7 +107,7 @@
         <div class="container mx-auto px-4 py-10">
             <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center sm:text-left">
                 <div>
-                    <h3 class="text-xl font-bold text-white mb-2">  Agência Atthos</h3>
+                    <h3 class="text-xl font-bold text-white mb-2"> Agência Atthos</h3>
                     <p class="text-[#FFFFFF] text-sm">Descomplicando o digital para o seu negócio.</p>
                 </div>
                 <div>
@@ -196,61 +160,5 @@
         </div>
     </footer>
 
-    <script>
-        // Smooth scroll para os links de navegação
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const targetId = this.getAttribute('href');
-                const targetElement = document.querySelector(targetId);
-                if(targetElement){
-                    targetElement.scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-
-        // Lógica para as abas
-        document.addEventListener('DOMContentLoaded', () => {
-            const tabButtons = document.querySelectorAll('.tab-button');
-            const tabContents = document.querySelectorAll('.tab-content');
-
-            // Função para ativar uma aba específica
-            const activateTab = (tabId) => {
-                tabButtons.forEach(btn => {
-                    btn.classList.remove('tab-active');
-                    btn.classList.add('tab-inactive');
-                });
-                tabContents.forEach(content => {
-                    content.classList.add('hidden');
-                });
-
-                const activeBtn = document.querySelector(`[data-tab="${tabId}"]`);
-                if (activeBtn) {
-                    activeBtn.classList.add('tab-active');
-                    activeBtn.classList.remove('tab-inactive');
-                }
-                const targetContent = document.getElementById(tabId + '-content');
-                if (targetContent) {
-                    targetContent.classList.remove('hidden');
-                }
-            };
-
-            // Ativar a primeira aba por padrão ao carregar a página
-            activateTab('strategy');
-
-            tabButtons.forEach(button => {
-                button.addEventListener('click', () => {
-                    const tabId = button.getAttribute('data-tab');
-                    activateTab(tabId);
-                });
-            });
-
-            // Atualiza o ano no rodapé automaticamente
-            document.getElementById('current-year').textContent = new Date().getFullYear();
-        });
-    </script>
-
-</body>
+    <script src="script.js"></script> </body>
 </html>
