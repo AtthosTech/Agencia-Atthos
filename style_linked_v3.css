@@ -1,0 +1,41 @@
+/* Estilos globais e fontes */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1E1E1E; /* Cinza escuro */
+    color: #FFFFFF; /* Branco */
+}
+.highlight-blue {
+    color: #0f1d41; /* Azul */
+}
+.highlight-lilac {
+    color: #7116aa; /* Lilás */
+}
+.bg-highlight-lilac {
+    background-color: #7116aa; /* Lilás */
+}
+.text-off-white {
+    color: #ebddd7; /* Branco */
+}
+.bg-card {
+    background-color: #2D2D2D; /* Um cinza um pouco mais claro para os cards */
+}
+.border-custom {
+    border-color: #4A4A4A; /* Borda mais suave */
+}
+.hover-effect:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.6); /* Sombra mais intensa no hover */
+}
+.transition-all {
+    transition: all 0.3s ease-in-out;
+}
+/* Cor de hover para botões com fundo lilás */
+.hover-bg-dark-lilac:hover {
+    background-color: #5e1290;
+}
+/* Cor de hover para botões com borda branca */
+.hover-border-white:hover {
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #1E1E1E; /* Texto preto no hover */
+}

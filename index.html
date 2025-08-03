@@ -1,166 +1,161 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agência Atthos: O Digital Descomplicado para o seu Negócio!</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agência Atthos | Soluções Digitais</title>
+    <meta name="description" content="Agência digital especializada em organização, automação e presença online para alavancar seu negócio.">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style_linked_v3.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        window.onload = () => lucide.createIcons();
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-[#FFFFFF] text-[#0f1d41]">
-
-    <header class="bg-[#FFFFFF]/90 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
-        <nav class="container mx-auto px-4 py-3 flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold text-[#0f1d41]">Agência Atthos</a>
-            <div class="hidden md:flex space-x-6">
-                <a href="#problems" class="text-[#0f1d41] hover:text-[#7116aa] transition-colors">Seus Desafios</a>
-                <a href="#solution" class="text-[#0f1d41] hover:text-[#7116aa] transition-colors">Nossas Soluções</a>
-                <a href="#cta" class="bg-[#7116aa] text-white py-2 px-4 rounded-lg hover:bg-[#5b1288] transition-colors">Fale Conosco</a>
-            </div>
+<body class="antialiased">
+    <header class="w-full px-6 py-4 flex items-center justify-between border-b border-[#4A4A4A] bg-[#1E1E1E] sticky top-0 z-50">
+        <h1 class="text-2xl font-bold text-white">Agência <span class="highlight-lilac">Atthos</span></h1>
+        <nav class="space-x-6 hidden md:block">
+            <a href="#sobre" class="hover:text-highlight-lilac transition-all text-off-white">Quem Somos</a>
+            <a href="#servicos" class="hover:text-highlight-lilac transition-all text-off-white">Serviços</a>
+            <a href="#contato" class="hover:text-highlight-lilac transition-all text-off-white">Contato</a>
         </nav>
+        <button class="md:hidden text-white text-2xl">
+            <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
     </header>
 
     <main>
-        <section id="hero" class="text-center py-16 sm:py-24 bg-[#FFFFFF]">
-            <div class="container mx-auto px-4">
-                <h1 class="text-3xl md:text-5xl font-bold text-[#0f1d41] mb-3">🚨 Negócio desorganizado e sem resultados no digital?</h1>
-                <p class="text-base md:text-lg text-[#0f1d41] max-w-2xl mx-auto leading-relaxed">Chega de perder vendas e tempo! Sabemos o quanto é difícil manter tudo em ordem. A Agência Atthos vai transformar o caos em crescimento para o seu negócio.</p>
+        <section class="px-6 py-20 max-w-5xl mx-auto text-center bg-gradient-to-b from-[#1E1E1E] to-[#2D2D2D]">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6 leading-tight text-white">
+                Sua parceira para <span class="highlight-lilac">descomplicar</span> o mundo digital
+            </h2>
+            <p class="text-lg md:text-xl text-off-white max-w-3xl mx-auto mb-10 opacity-90">
+                Oferecemos consultoria prática e soluções sob medida para você organizar seu negócio, vender mais e crescer com uma base sólida — sem complicação ou enrolação.
+            </p>
+            <a href="https://wa.me/5511965391331" target="_blank" class="inline-flex items-center bg-highlight-lilac text-white px-8 py-4 rounded-full font-semibold text-lg hover-bg-dark-lilac transition-all hover-effect">
+                <i data-lucide="message-circle" class="w-6 h-6 mr-3"></i> Fale com a gente!
+            </a>
+        </section>
+
+        <section id="sobre" class="px-6 py-16 bg-card rounded-lg mx-auto max-w-6xl mb-16 border border-custom transition-all hover-effect">
+            <div class="text-center">
+                <h3 class="text-3xl font-bold mb-4 flex items-center justify-center gap-3 text-white">
+                    <i data-lucide="info" class="w-8 h-8 highlight-blue"></i> Quem Somos
+                </h3>
+                <p class="text-lg text-off-white max-w-3xl mx-auto leading-relaxed opacity-90">
+                    A Agência Atthos nasceu com o propósito de simplificar o acesso à transformação digital para quem empreende. Acreditamos que todo negócio merece estrutura, estratégia e presença online — sem complicação e com propósito. Nossa paixão é ajudar autônomos e pequenos negócios a crescerem com solidez no ambiente digital.
+                </p>
             </div>
         </section>
 
-        <section id="problems" class="py-12 sm:py-20">
-            <div class="container mx-auto px-4">
-                <div class="text-center mb-10">
-                    <h2 class="text-2xl sm:text-3xl font-bold mb-2 text-[#0f1d41]">Você se identifica com algum desses desafios?</h2>
-                    <p class="text-[#0f1d41] max-w-xl mx-auto text-sm sm:text-base">Muitos empreendedores enfrentam o dia a dia com esses problemas. Veja se o seu negócio está passando por algo parecido antes de conhecer nossa solução:</p>
-                </div>
-                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 text-center">
-                    <div class="bg-white p-6 rounded-xl border border-[#0f1d41]/10 card-shadow hover:shadow-lg transition-shadow duration-300">
-                        <span class="text-4xl sm:text-5xl mb-3 block">😵‍💫</span>
-                        <h3 class="text-lg sm:text-xl font-semibold mb-2 text-[#0f1d41]">Processos Bagunçados</h3>
-                        <p class="text-[#0f1d41] text-sm leading-normal">Documentos se perdem, tarefas acumulam e a equipe não sabe o que fazer? Seu tempo e energia estão sendo desperdiçados com a falta de organização.</p>
+        <section id="servicos" class="px-6 py-16">
+            <div class="max-w-6xl mx-auto">
+                <h3 class="text-3xl font-bold mb-10 text-center flex items-center justify-center gap-3 text-white">
+                    <i data-lucide="layout-dashboard" class="w-8 h-8 highlight-lilac"></i> Nossas Soluções
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="p-6 bg-card rounded-xl border border-custom transition-all hover-effect">
+                        <div class="highlight-blue text-4xl mb-4 flex justify-center md:justify-start">
+                            <i data-lucide="trending-up" class="w-10 h-10"></i>
+                        </div>
+                        <h4 class="font-semibold text-xl mb-2 text-white">Consultoria Estratégica</h4>
+                        <p class="text-off-white opacity-90">Diagnóstico aprofundado, plano de ação personalizado e organização digital para o seu negócio.</p>
                     </div>
-                    <div class="bg-white p-6 rounded-xl border border-[#0f1d41]/10 card-shadow hover:shadow-lg transition-shadow duration-300">
-                        <span class="text-4xl sm:text-5xl mb-3 block">📉</span>
-                        <h3 class="text-lg sm:text-xl font-semibold mb-2 text-[#0f1d41]">Redes Sociais sem Resultado</h3>
-                        <p class="text-[#0f1d41] text-sm leading-normal">Você posta conteúdo sem parar, mas suas redes sociais não trazem clientes nem geram engajamento de verdade? Parece que seu esforço não está valendo a pena.</p>
+                    <div class="p-6 bg-card rounded-xl border border-custom transition-all hover-effect">
+                        <div class="highlight-blue text-4xl mb-4 flex justify-center md:justify-start">
+                            <i data-lucide="megaphone" class="w-10 h-10"></i>
+                        </div>
+                        <h4 class="font-semibold text-xl mb-2 text-white">Marketing Digital</h4>
+                        <p class="text-off-white opacity-90">Gestão estratégica de redes sociais, criação de conteúdo autêntico e campanhas de anúncios.</p>
                     </div>
-                    <div class="bg-white p-6 rounded-xl border border-[#0f1d41]/10 card-shadow hover:shadow-lg transition-shadow duration-300">
-                        <span class="text-4xl sm:text-5xl mb-3 block">🤯</span>
-                        <h3 class="text-lg sm:text-xl font-semibold mb-2 text-[#0f1d41]">Falta de Direção Estratégica</h3>
-                        <p class="text-[#0f1d41] text-sm leading-normal">Sem um plano claro, você toma decisões no escuro, baseadas em "achismos", e não sabe qual o próximo passo para fazer seu negócio crescer de forma inteligente.</p>
+                    <div class="p-6 bg-card rounded-xl border border-custom transition-all hover-effect">
+                        <div class="highlight-blue text-4xl mb-4 flex justify-center md:justify-start">
+                            <i data-lucide="brush" class="w-10 h-10"></i>
+                        </div>
+                        <h4 class="font-semibold text-xl mb-2 text-white">Design e Identidade Visual</h4>
+                        <p class="text-off-white opacity-90">Desenvolvimento de logos, templates e padronização visual completa para sua marca.</p>
+                    </div>
+                    <div class="p-6 bg-card rounded-xl border border-custom transition-all hover-effect">
+                        <div class="highlight-blue text-4xl mb-4 flex justify-center md:justify-start">
+                            <i data-lucide="globe" class="w-10 h-10"></i>
+                        </div>
+                        <h4 class="font-semibold text-xl mb-2 text-white">Soluções Digitais Personalizadas</h4>
+                        <p class="text-off-white opacity-90">Desenvolvimento de sites, automações de processos, landing pages e integração de ferramentas.</p>
+                    </div>
+                    <div class="p-6 bg-card rounded-xl border border-custom transition-all hover-effect">
+                        <div class="highlight-blue text-4xl mb-4 flex justify-center md:justify-start">
+                            <i data-lucide="briefcase" class="w-10 h-10"></i>
+                        </div>
+                        <h4 class="font-semibold text-xl mb-2 text-white">Gestão e Organização</h4>
+                        <p class="text-off-white opacity-90">Otimização da rotina de trabalho com ferramentas visuais e intuitivas para mais produtividade.</p>
+                    </div>
+                    <div class="p-6 bg-card rounded-xl border border-custom transition-all hover-effect">
+                        <div class="highlight-blue text-4xl mb-4 flex justify-center md:justify-start">
+                            <i data-lucide="package" class="w-10 h-10"></i>
+                        </div>
+                        <h4 class="font-semibold text-xl mb-2 text-white">Kits e Pacotes Sob Medida</h4>
+                        <p class="text-off-white opacity-90">Soluções completas e customizadas para as necessidades específicas do seu negócio.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="solution" class="py-12 sm:py-20 bg-[#f8f8f8]">
-            <div class="container mx-auto px-4">
-                <div class="text-center mb-10">
-                    <h2 class="text-2xl sm:text-3xl font-bold text-[#0f1d41] mb-2">A Agência Atthos tem a solução que seu negócio precisa! ✅</h2>
-                    <p class="text-[#0f1d41] max-w-xl mx-auto text-sm sm:text-base leading-normal">Nossa consultoria é focada em resultados reais. Desenvolvemos estratégias e ferramentas para **organizar sua operação**, **impulsionar suas vendas** e **descomplicar o digital** de uma vez por todas. Veja como podemos te ajudar:</p>
-                </div>
-                
-                <div id="tabs-container" class="max-w-3xl mx-auto">
-                    <div class="flex flex-col sm:flex-row justify-center gap-2 mb-6">
-                        <button data-tab="strategy" class="tab-button py-2 px-4 rounded-lg text-sm sm:text-base transition-all duration-300 tab-active font-semibold">✨ Estratégia Digital</button>
-                        <button data-tab="notion" class="tab-button py-2 px-4 rounded-lg text-sm sm:text-base transition-all duration-300 tab-inactive font-semibold">📝 Organização de Processos</button>
-                        <button data-tab="social" class="tab-button py-2 px-4 rounded-lg text-sm sm:text-base transition-all duration-300 tab-inactive font-semibold">📱 Marketing e Conteúdo</button>
-                    </div>
-                    
-                    <div id="tabs-content" class="bg-[#FFFFFF] p-6 md:p-8 rounded-xl shadow-md min-h-[180px] card-shadow">
-                        <div id="strategy-content" class="tab-content">
-                            <span class="text-4xl text-[#7116aa] float-right ml-4 mb-4">💡</span>
-                            <h3 class="text-xl sm:text-2xl font-bold text-[#0f1d41] mb-3">Estratégia Digital: Seu Mapa para o Sucesso</h3>
-                            <p class="text-[#0f1d41] text-sm sm:text-base leading-normal">Criamos um **plano digital claro e objetivo** que transforma sua presença online em vendas. Esqueça o "achismo"! Você terá um caminho definido para alcançar seus clientes, aumentar seu faturamento e ter um crescimento sustentável.</p>
-                        </div>
-                        <div id="notion-content" class="tab-content hidden">
-                            <span class="text-4xl text-[#7116aa] float-right ml-4 mb-4">🚀</span>
-                            <h3 class="text-xl sm:text-2xl font-bold text-[#0f1d41] mb-3">Organização de Processos: Diga Adeus à Bagunça!</h3>
-                            <p class="text-[#0f1d41] text-sm sm:text-base leading-normal">Transformamos seu caos em um sistema produtivo! Implementamos e personalizamos **ferramentas poderosas (como Notion)** para centralizar suas tarefas, projetos e informações de clientes. Otimize seu tempo e recursos, e foque no que realmente importa: **escalar seu negócio.**</p>
-                        </div>
-                        <div id="social-content" class="tab-content hidden">
-                            <span class="text-4xl text-[#7116aa] float-right ml-4 mb-4">📈</span>
-                            <h3 class="text-xl sm:text-2xl font-bold text-[#0f1d41] mb-3">Marketing e Conteúdo: Conecte e Converta!</h3>
-                            <p class="text-[#0f1d41] text-sm sm:text-base leading-normal">Suas redes sociais vão, finalmente, **gerar resultados!** Desenvolvemos um plano de conteúdo estratégico, criamos posts que chamam a atenção e gerimos suas campanhas para que você atraia seu público-alvo, aumente o engajamento e **transforme seguidores em clientes fiéis.**</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="cta" class="bg-[#0f1d41] text-white">
-            <div class="container mx-auto px-4 py-12 text-center">
-                <h2 class="text-2xl sm:text-3xl font-bold mb-3">Pronto para ter um negócio organizado e com resultados reais?</h2>
-                <p class="text-white max-w-xl mx-auto mb-6 text-sm sm:text-base leading-normal">Chega de perder tempo e dinheiro! Vamos descomplicar sua operação, potencializar sua presença online e alcançar o sucesso que seu negócio merece. Clique abaixo e comece sua transformação agora!</p>
-                <a href="https://wa.me/5511965391331" target="_blank" class="bg-[#7116aa] text-white font-bold py-3 px-8 rounded-lg text-base sm:text-lg hover:bg-[#5b1288] transition-all duration-300 shadow-lg inline-block">
-                    Quero Organizar Meu Negócio Agora!
+        <section id="contato" class="px-6 py-20 bg-card rounded-lg mx-auto max-w-6xl text-center mb-16 border border-custom transition-all hover-effect">
+            <h3 class="text-3xl md:text-4xl font-bold mb-6 text-white">
+                Pronto para <span class="highlight-lilac">evoluir</span> seu negócio?
+            </h3>
+            <p class="text-lg text-off-white max-w-3xl mx-auto mb-10 opacity-90">
+                Fale com a gente! Nosso atendimento é 100% online e estamos prontos para entender suas necessidades e apresentar a solução ideal.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="https://wa.me/5511965391331" target="_blank" class="inline-flex items-center bg-highlight-lilac text-white px-8 py-4 rounded-full font-semibold text-lg hover-bg-dark-lilac transition-all hover-effect">
+                    <i data-lucide="whatsapp" class="w-6 h-6 mr-3"></i> Chamar no WhatsApp
+                </a>
+                <a href="https://www.instagram.com/agenciaatthos" target="_blank" class="inline-flex items-center border border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover-border-white transition-all hover-effect">
+                    <i data-lucide="instagram" class="w-6 h-6 mr-3"></i> Seguir no Instagram
                 </a>
             </div>
         </section>
-
     </main>
 
-    <footer id="contato" class="bg-[#0f1d41] text-[#FFFFFF]">
-        <div class="container mx-auto px-4 py-10">
-            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center sm:text-left">
-                <div>
-                    <h3 class="text-xl font-bold text-white mb-2"> Agência Atthos</h3>
-                    <p class="text-[#FFFFFF] text-sm">Descomplicando o digital para o seu negócio.</p>
-                </div>
-                <div>
-                    <h3 class="text-lg font-bold text-white mb-2">Fale Conosco</h3>
-                    <ul class="text-sm">
-                        <li class="mb-1">
-                            <a href="https://wa.me/5511965391331" target="_blank" class="text-[#FFFFFF] hover:text-[#7116aa] transition-colors flex items-center justify-center sm:justify-start">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                                        <path d="M.057 21.365a1.868 1.868 0 0 0 1.579 1.157c1.378.092 1.868.046 3.633-.701l.03-.016c1.178-.456 1.94-.741 3.208-1.127l.024-.008c.55-.164 1.1-.328 1.65-.492a10.96 10.96 0 0 0 4.148-1.578c2.09-.94 3.73-2.58 4.67-4.67a10.96 10.96 0 0 0-1.579-4.148c-.94-2.09-2.58-3.73-4.67-4.67a10.96 10.96 0 0 0-4.148-1.579c-2.09-.94-3.73-2.58-4.67-4.67a1.868 1.868 0 0 0-1.579-1.157c-1.378-.092-1.868-.046-3.633.701l-.03.016c-1.178.456-1.94.741-3.208 1.127l-.024.008c-.55.164-1.1.328-1.65.492a10.96 10.96 0 0 0-4.148 1.578c-2.09.94-3.73 2.58-4.67 4.67a10.96 10.96 0 0 0 1.579 4.148z"/>
-                                        <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.718 13.25L14.54 13.07a.5.5 0 0 0-.4-.08c-.14.03-.28.05-.42.05-.14 0-.28-.02-.42-.05a.5.5 0 0 0-.4.08l-2.178 2.178c-.2.2-.5.2-.7 0l-2.178-2.178a.5.5 0 0 0-.4-.08c-.14.03-.28.05-.42.05-.14 0-.28-.02-.42-.05a.5.5 0 0 0-.4-.08L4.718 13.25C4.518 13.05 4.518 12.75 4.718 12.55L7.25 10.012c.2-.2.5-.2.7 0l2.178 2.178a.5.5 0 0 0 .4.08c.14-.03.28-.05.42-.05.14 0 .28.02.42.05a.5.5 0 0 0 .4.08l2.178-2.178c.2-.2.5-.2.7 0l2.532 2.538c.2.2.2.5 0 .7z"/>
-                                </svg>
-                                (11) 96539-1331
-                            </a>
-                        </li>
-                        <li>
-                            <p class="text-[#FFFFFF] text-sm flex items-center justify-center sm:justify-start">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                                </svg>
-                                Atendimento 100% online
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-lg font-bold text-white mb-2">Links Rápidos</h3>
-                    <ul class="text-sm space-y-1">
-                        <li><a href="#problems" class="text-[#FFFFFF] hover:text-[#7116aa] transition-colors">Seus Desafios</a></li>
-                        <li><a href="#solution" class="text-[#FFFFFF] hover:text-[#7116aa] transition-colors">Nossas Soluções</a></li>
-                        <li><a href="#cta" class="text-[#FFFFFF] hover:text-[#7116aa] transition-colors">Fale Conosco</a></li>
-                        <li><a href="https://keepo.io/Agencia_atthos" target="_blank" class="text-[#FFFFFF] hover:text-[#7116aa] transition-colors">Quem Somos</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-lg font-bold text-white mb-2">Siga a gente!</h3>
-                    <div class="flex justify-center sm:justify-start gap-4 mt-2">
-                        <a href="https://www.instagram.com/agencia_atthos/" target="_blank" class="footer-icon" aria-label="Instagram">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-                        </a>
-                        <a href="https://www.linkedin.com/company/atthos-tech/" target="_blank" class="footer-icon" aria-label="LinkedIn">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-                        </a>
-                    </div>
+    <footer class="bg-[#1E1E1E] border-t border-[#4A4A4A] py-12 px-6">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 text-center md:text-left">
+            <div>
+                <h4 class="text-white font-bold text-xl mb-3">Agência <span class="highlight-lilac">Atthos</span></h4>
+                <p class="text-sm text-off-white opacity-90">Descomplicando o digital para o seu negócio.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-xl mb-3">Fale Conosco</h4>
+                <p class="text-sm text-off-white opacity-90 mb-2">Atendimento 100% online</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-xl mb-3">Links Rápidos</h4>
+                <ul class="space-y-2">
+                    <li><a href="#sobre" class="text-sm text-off-white hover:text-highlight-lilac transition-all opacity-90">Quem Somos</a></li>
+                    <li><a href="#servicos" class="text-sm text-off-white hover:text-highlight-lilac transition-all opacity-90">Nossas Soluções</a></li>
+                    <li><a href="#contato" class="text-sm text-off-white hover:text-highlight-lilac transition-all opacity-90">Fale Conosco</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-xl mb-3">Siga a Gente!</h4>
+                <div class="flex justify-center md:justify-start space-x-4">
+                    <a href="https://www.instagram.com/agenciaatthos" target="_blank" class="text-white text-3xl hover:text-highlight-lilac transition-all">
+                        <i data-lucide="instagram" class="w-8 h-8"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/agenciaatthos" target="_blank" class="text-white text-3xl hover:text-highlight-lilac transition-all">
+                        <i data-lucide="linkedin" class="w-8 h-8"></i>
+                    </a>
                 </div>
             </div>
-            <div class="mt-10 border-t border-[#333333] pt-6 text-center text-xs text-[#FFFFFF]">
-                <p>&copy; <span id="current-year"></span> Agência Atthos. Todos os direitos reservados.</p>
-            </div>
+        </div>
+        <div class="text-center text-off-white mt-12 pt-8 border-t border-[#4A4A4A] opacity-70">
+            © 2025 Agência Atthos. Todos os direitos reservados.
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script_linked_v3.js"></script>
 </body>
 </html>
