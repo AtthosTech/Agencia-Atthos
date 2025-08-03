@@ -1,60 +1,41 @@
-# 🌐 Atthos Tech
 
-Este repositório contém o código-fonte da **landing page institucional da Agência Atthos **, uma agência digital voltada para a organização e aceleração de pequenos e medios negócios, autônomos no ambiente interno e digital.
+🌐 Agência Atthos - 
+Este repositório contém o código-fonte da landing page institucional da Agência Atthos.
+Nosso foco é organizar e acelerar pequenos e médios negócios e específicos no ambiente digital.
 
+🚀 Sobre o Projeto
+A landing page foi desenvolvida com HTML5, Tailwind CSS e JavaScript . Ela é responsiva e moderna, funcionando bem em qualquer tela. O objetivo é apresentar nossos serviços, processos e diferenciais, sendo o primeiro contato para futuros clientes e parceiros.
 
-## 🔎 Sobre o Projeto
+Nossa proposta: Oferecer soluções integradas de gestão, automação, identidade visual e presença digital, com foco em eficiência, autonomia e crescimento sustentável.
 
-Desenvolvida com **HTML5, Tailwind CSS e JavaScript**, a página é responsiva, acessível e fácil de navegar. 
-Ela apresenta os **valores, serviços, processos e pacotes** da Atthos Tech, servindo como ponto de entrada para clientes e parceiros.
+💡 Conteúdo da Página
+A página inclui os seguintes detalhes principais:
 
-A proposta é oferecer **soluções integradas de gestão, automação, identidade visual e presença digital**, com suporte consultivo e foco em eficiência, autonomia e crescimento sustentável.
+Quem Somos: Nossa essência e propósito.
 
+Serviços: As soluções que oferecemos.
 
-## 💡 O Que Você Vai Encontrar Aqui
+Diferenciais: Por que nos escolhemos.
 
-- Página institucional responsiva e moderna  
-- Estrutura de navegação clara com links âncora
-- Estilo visual inspirado em startups tech (fontes, gradientes, ícones e microinterações)
-- Seções definidas:
-  - Quem somos
-  - Valores
-  - Serviços
-  - Nosso jeito de trabalhar
-  - Como funciona o processo
-  - Pra quem é
-  - Pacotes e contato
+Contato: Como falar com a gente.
 
+🛠 Tecnologias Utilizadas
+HTML5: Estrutura da página.
 
-## 🛠 Tecnologias Utilizadas
+Tailwind CSS 3.x: Estilização moderna e responsiva.
 
-- HTML5
-- Tailwind CSS 3.x
-- Google Fonts (Inter)
-- SVGs para ícones
-- Scroll suave via JavaScript vanilla
+JavaScript: Interatividade e rolagem suave.
 
+Google Fonts (Inter): Tipografia.
 
-## 📌 Visão de Futuro
+Lucide Icons: Ícones modernos.
 
-Essa página é só o começo. O plano é evoluir pra um hub completo com:
+🔗 Links Úteis
+Saiba mais (Keepo.io): https://keepo.io/Agencia_atthos
 
-- Sistema de agendamento e onboarding de clientes
-- Painel interativo com API e Automações
-- Conteúdo educativo
-- Área de membros e Projetos para a Comunidade 
+WhatsApp: https://api.whatsapp.com/send?phone=5511965391331
 
-
-## 🔗 Links Importantes
-
-- 🌐 Saiba mais: [https://keepo.io/Agencia_atthos](https://keepo.io/Agencia_atthos)  
-- 📲 Nosso contato via WhatsApp: [https://api.whatsapp.com/send?phone=5511965391331](https://api.whatsapp.com/send?phone=5511965391331)  
-- 📸 Instagram oficial: [https://instagram.com/agencia_atthos/](https://instagram.com/agencia_atthos/)
-
-🙌 Contribuição
-
-Sugestões de melhorias ou colaborações são super bem-vindas. Pode chamar direto no WhatsApp.
+Instagram: https://instagram.com/agencia_atthos/
 
 © Direitos
-
-© 2024 Agência Atthos. Todos os direitos reservados. Feito com visão e propósito.
+© 2024 Agência Atthos. Todos os direitos reservados.
